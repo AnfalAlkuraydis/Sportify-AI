@@ -1,4 +1,4 @@
-# 🥗 Sportify AI — GPT‑2 Recipe Generator
+# 🥗 Plan2Plate — GPT‑2 Recipe Generator
 
 > **Model:** [`anf1lll/gpt2-model`](https://huggingface.co/anf1lll/gpt2-model)  
 > **Data:** `darkraipro/recipe-instructions` (Hugging Face Datasets)
@@ -6,7 +6,7 @@
 ---
 
 ## Abstract
-Sportify AI is a lightweight recipe-generation project that fine‑tunes GPT‑2 on public cooking instructions and pairs it with a simple meal‑planning flow. A calorie estimate is used to propose a daily plan, and the fine‑tuned GPT‑2 produces detailed, step‑by‑step recipes from the selected meal. The goal is to demonstrate an end‑to‑end pipeline—data → fine‑tuning → evaluation → interactive use—while staying minimal and easy to reproduce.
+Plan2Plate is a lightweight recipe-generation project that fine‑tunes GPT‑2 on public cooking instructions and pairs it with a simple meal‑planning flow. A calorie estimate is used to propose a daily plan, and the fine‑tuned GPT‑2 produces detailed, step‑by‑step recipes from the selected meal. The goal is to demonstrate an end‑to‑end pipeline—data → fine‑tuning → evaluation → interactive use—while staying minimal and easy to reproduce.
 
 ---
 
@@ -48,5 +48,4 @@ If using Jupyter:
 jupyter nbextension enable --py widgetsnbextension
 ```
 
-## License
-Add your repository license (e.g., MIT). Respect the dataset/model licenses and API terms.
+
