@@ -11,21 +11,7 @@ Original file is located at
 ## Imports
 """
 
-!pip install datasets
 
-import math, random, torch
-from textwrap import dedent
-from datasets import load_dataset, Value
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    DataCollatorForLanguageModeling,
-    Trainer,
-    TrainingArguments,
-)
-import matplotlib.pyplot as plt
-import ipywidgets as widgets
-from IPython.display import display
 
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, pipeline, GPT2TokenizerFast ,GPT2Config ,AutoTokenizer, AutoModelForCausalLM
 import math, random, torch
@@ -390,7 +376,7 @@ outputs = model.generate(
 
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
-!pip install nltk
+
 
 text = "Grilled chicken breast with garlic, lemon, and rosemary. Cook over medium heat for 10 minutes on each side."
 
