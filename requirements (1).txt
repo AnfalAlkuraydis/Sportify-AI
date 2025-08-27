@@ -1,0 +1,15 @@
+# Requirements for sportify_ai
+# Core ML & NLP
+transformers
+datasets
+torch
+
+# Hugging Face utilities
+huggingface_hub
+
+# OpenAI client
+openai
+
+# UI & plotting
+ipywidgets
+matplotlib
