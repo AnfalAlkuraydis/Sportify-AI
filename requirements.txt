@@ -1,5 +1,0 @@
-transformers>=4.42.0
-datasets>=2.18.0
-accelerate>=0.30.0
-torch>=2.1.0
-huggingface_hub>=0.23.0
