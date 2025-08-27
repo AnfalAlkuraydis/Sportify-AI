@@ -1,6 +1,6 @@
 # Contributors
 
-- Anfal Alkuraydis¹
-- Rama Alotaibi¹
-- Leen Khashugji¹
-- Haya Alhodaib¹
+- Anfal Alkuraydis
+- Rama Alotaibi
+- Leen Khashugji
+- Haya Alhodaib
